@@ -1,6 +1,6 @@
 # Knit vs. Crochet
 
-A deep learning project for automated textile classification using computer vision to distinguish between knitted and crocheted fabrics.
+A deep learning project for binary classification: distinguishing between knitted and crocheted fabrics.
 
 ## Motivation
 
