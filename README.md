@@ -16,10 +16,10 @@ The ability to automatically identify crochet versus knit textiles can help dete
 
 I built a model using a deep convolutional neural network (CNN) in TensorFlow/Keras. It's structured with three convolutional blocks, progressively increasing the number of filters from 32 to 128. It takes in 180×180 RGB images and was trained on our custom dataset of 2,309 textile images, using an 80/20 split for training and validation.
 
-To train it effectively, I used data augmentation (random flips and rotations), 50% dropout, and early stopping to prevent overfitting. It ultimately converged in 18 epochs, optimized with the Adam optimizer and binary crossentropy loss.
+To train the model, I used data augmentation (random flips and rotations), 50% dropout, and early stopping to prevent overfitting. It ultimately converged in 18 epochs, optimized with the Adam optimizer and binary crossentropy loss.
 
 ## Dataset
-The training dataset consists of 2,309 images collected from the following craft reference books:
+The training dataset consists of 2,309 images collected from the following knit/crochet stitch books:
 
 ### Crochet References:
 - *The New Crochet Stitch Dictionary: 440 Patterns for Textures, Shells, Bobbles, Lace, Cables, Chevrons, Edgings, Granny Squares, and More* by Nele Braas and Eveline Hetty-Burkart (Stackpole Books, 2021)
@@ -34,5 +34,5 @@ Images were manually categorized into knit and crochet classes, with 1,188 croch
 
 ## Future Improvements
 
-The model could be enhanced through transfer learning, expanded datasets with more diverse samples, and mobile deployment for real-time classification. 
+The model could be improved through transfer learning, expanded datasets with more diverse samples, and mobile deployment for real-time classification. 
 
