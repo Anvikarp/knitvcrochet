@@ -4,7 +4,7 @@ A deep learning project for binary classification: distinguishing between knitte
 
 ## Motivation
 
-This project addresses an important labor rights issue in the textile industry. While knitted fabrics can be mass-produced using industrial machinery, crochet work can only be done by hand. This makes crochet items significantly more labor-intensive, with a single piece potentially requiring dozens of hours of skilled handwork.
+This project addresses an important labor rights issue. While knitted fabrics can be mass-produced using industrial machinery, crochet work can only be done by hand. This makes crochet items significantly more labor-intensive, with a single piece potentially requiring dozens of hours of skilled handwork.
 
 The ability to automatically identify crochet versus knit textiles can help detect potential worker exploitation when crochet items are sold at very low prices.
 
