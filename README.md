@@ -34,5 +34,5 @@ Images were manually categorized into knit and crochet classes, with 1,188 croch
 
 ## Future Improvements
 
-The model could be improved through transfer learning, expanded datasets with more diverse samples, and mobile deployment for real-time classification. 
+To expand on this project, I'm looking into transfer learning and expanded datasets with more diverse samples to improve teh model. I am also thinking about mobile deployment for real-time classification. 
 
